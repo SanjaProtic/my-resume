@@ -86,7 +86,7 @@
             "karmaConfig": "src/karma.conf.js",
             "styles": [
               "src/styles.scss",
-              "./bootstrap/dist/css/bootstrap.css"
+              "./bootstrap/scss/bootstrap.scss"
             ],
             "scripts": [],
             "assets": [
