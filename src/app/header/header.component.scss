@@ -1,5 +1,67 @@
 @import "src/app/scss/variables";
+@import "src/app/scss/mixins";
 
 header {
-    color: $color-text;
+    width: 100%;
+    height: 8rem;
+    border-bottom: 1px solid #d3d3d3;
+    position: relative;
+   
+        .header {
+            width: 40%;
+            padding: 1rem;
+            display: inline-block;
+            height: 5rem;
+        }
+        .green {
+            background: #528b8b;
+            color: $color-text;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .rotate1{
+            width: 10%;
+            height: 11rem;
+            margin-top: -9rem;
+            z-index: -1;
+            position: relative;
+            display: inline-block;
+            background: #528b8b;
+            @include rotate;
+        }
+    
+      .rotate2 {
+            width: 10%;
+            z-index: -1;
+            position: relative;
+            background: $color-text;
+            display: inline-block;
+            height: 11rem;
+            margin-top: -9rem;
+            @include rotate2;
+        }
+        .black {
+            background: $color-text;
+            color: #fff;
+            text-align: right;
+            font-size: 20px;
+
+        }
+    
+}
+.pic {
+    position: absolute;
+    left: 46%;
+    top: 17%;
+    div {
+        border: 1px solid #d3d3d3;
+        border-radius: 50%;
+        padding: 1rem;
+        width: 100px;
+        height: 100px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
 }

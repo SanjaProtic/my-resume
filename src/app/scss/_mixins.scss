@@ -1,14 +1,20 @@
 @mixin main {
 	* {
 		margin: 0;
-		padding: 0;
+        padding: 0;
 		-webkit-box-sizing: border-box;
 	  	   -moz-box-sizing: border-box;
 	  			box-sizing: border-box;
 	}
 }
 @mixin rotate {
-	-ms-transform: skewY(4deg); 
-    -webkit-transform: skewY(4deg); 
-    transform: skewY(4deg); 
+	-ms-transform: skewY(-34deg); 
+    -webkit-transform: skewY(-34deg); 
+    transform: skewY(-34deg); 
+}
+
+@mixin rotate2 {
+	-ms-transform: skewY(34deg); 
+    -webkit-transform: skewY(34deg); 
+    transform: skewY(34deg); 
 }
