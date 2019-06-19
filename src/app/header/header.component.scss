@@ -8,6 +8,7 @@ header {
     position: relative;
     background: $color-text;
     overflow: hidden;
+    display: flex;
         .green {
             width: 40%;
             padding-left: 1rem;
@@ -33,9 +34,10 @@ header {
         }
 }
 .pic {
-    position: absolute;
-    left: 65%;
-    top: 5%;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
     div {
         border: 3px solid #fff;
         border-radius: 50%;
