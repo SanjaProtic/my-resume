@@ -9,9 +9,8 @@ import { ContactComponent } from './sidebar/contact/contact.component';
 import { ContentComponent } from './content/content.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
-import { fas, faPhoneAlt, faCity, faEnvelope} from '@fortawesome/free-solid-svg-icons';
-import { far } from '@fortawesome/free-regular-svg-icons';
+import { fas, faPhoneAlt, faCity, faEnvelope, faBookOpen, faCode} from '@fortawesome/free-solid-svg-icons';
+import { far,faFileCode } from '@fortawesome/free-regular-svg-icons';
 import { fab, faGithub, faSkype } from '@fortawesome/free-brands-svg-icons';
 
 
@@ -34,6 +33,6 @@ import { fab, faGithub, faSkype } from '@fortawesome/free-brands-svg-icons';
 })
 export class AppModule { 
    constructor(){
-      library.add(faCoffee,fas,faPhoneAlt,far,faCity,faEnvelope,fab,faGithub,faSkype);
+      library.add(fas,faPhoneAlt,far,faCity,faEnvelope,fab,faGithub,faSkype,faBookOpen,faFileCode,faCode);
    }
 }
