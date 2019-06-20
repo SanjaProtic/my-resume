@@ -32,6 +32,13 @@ header {
             background: #528b8b;
             @include rotate;
         }
+        a {
+            text-decoration: none;
+            color: $color-text;
+            &:hover {
+                color: $hover-color;
+            }
+        }
 }
 .pic {
     display: flex;

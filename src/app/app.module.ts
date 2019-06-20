@@ -12,6 +12,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas, faPhoneAlt, faCity, faEnvelope, faBookOpen, faCode} from '@fortawesome/free-solid-svg-icons';
 import { far,faFileCode } from '@fortawesome/free-regular-svg-icons';
 import { fab, faGithub, faSkype } from '@fortawesome/free-brands-svg-icons';
+import { AppRoutingModule } from './app-routing.module';
 
 
 
@@ -26,7 +27,8 @@ import { fab, faGithub, faSkype } from '@fortawesome/free-brands-svg-icons';
   ],
   imports: [
     BrowserModule,
-	FontAwesomeModule
+    FontAwesomeModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

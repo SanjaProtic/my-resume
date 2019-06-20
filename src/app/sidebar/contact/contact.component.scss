@@ -1,10 +1,12 @@
+@import "src/app/scss/variables";
+
 .main-contact {
     padding: 2rem;
     a {
         color: #fff;
         text-decoration: none;
         &:hover {
-            color: #fdf4c1;
+            color: $hover-color; 
         }
         h5 {
             padding-bottom: 1rem;
