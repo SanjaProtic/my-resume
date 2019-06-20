@@ -1,8 +1,10 @@
+@import "src/app/scss/variables";
+
 .content-container {
     padding: 2rem;
     h5 {
         display: inline-block;
-        color:#528b8b;
+        color:$green-color;
     }
     p {
         padding-left: 1.5rem;
@@ -28,7 +30,7 @@
     display: flex;
     flex-wrap: wrap;
     div {
-        border: 2px solid #528b8b;
+        border: 2px solid $green-color;
         width: 100px;
         text-align: center;
         padding: 0.5rem;
