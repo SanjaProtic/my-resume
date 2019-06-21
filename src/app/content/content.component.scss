@@ -20,18 +20,14 @@
 .icon {
     padding-right: 0.5rem;
     display: inline-block;
-}
-.skills {
-    h5 {
-        padding-left: 0.5rem;
-    }
+    color: $icon-color;
 }
 .skills-list {
     display: flex;
     flex-wrap: wrap;
     div {
         border: 2px solid $green-color;
-        width: 100px;
+        width: 110px;
         text-align: center;
         padding: 0.5rem;
         margin: 0.5rem;

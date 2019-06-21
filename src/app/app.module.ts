@@ -9,7 +9,7 @@ import { ContactComponent } from './sidebar/contact/contact.component';
 import { ContentComponent } from './content/content.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { fas, faPhoneAlt, faCity, faEnvelope, faBookOpen, faCode} from '@fortawesome/free-solid-svg-icons';
+import { fas, faPhoneAlt, faCity, faEnvelope, faBookOpen, faCode, faMagic} from '@fortawesome/free-solid-svg-icons';
 import { far,faFileCode } from '@fortawesome/free-regular-svg-icons';
 import { fab, faGithub, faSkype } from '@fortawesome/free-brands-svg-icons';
 import { AppRoutingModule } from './app-routing.module';
@@ -35,6 +35,6 @@ import { AppRoutingModule } from './app-routing.module';
 })
 export class AppModule { 
    constructor(){
-      library.add(fas,faPhoneAlt,far,faCity,faEnvelope,fab,faGithub,faSkype,faBookOpen,faFileCode,faCode);
+      library.add(fas,faPhoneAlt,far,faCity,faEnvelope,fab,faGithub,faSkype,faBookOpen,faFileCode,faCode,faMagic);
    }
 }

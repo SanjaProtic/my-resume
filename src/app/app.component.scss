@@ -1,17 +1,19 @@
 @import "src/app/scss/variables";
 
+
 .main-content {
     display: flex;
     width: 100%;
     div:first-child {
         width: 40%;
         padding: 1rem;
-        background: $color-text;
-        color: #fff;
+        background: $grey-color;
+        color: $white-color;
     }
     div:last-child {
         width: 60%;
         padding: 1rem;
-        border-left: 1px solid $color-text;
+        border-left: 1px solid $grey-color;
+        background: #fff;
     }
 }

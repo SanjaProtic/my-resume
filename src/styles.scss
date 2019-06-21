@@ -3,9 +3,12 @@
 
 
 @include main;
+body {
+    background-color: #f1f1f1!important;
+}
 .main {
-    max-width: 930px;
-    margin: 0 auto;
+    max-width: 950px;
+    margin: 2rem auto;
     height: auto;
     border: 1px solid #d3d3d3;
 }
