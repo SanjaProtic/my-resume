@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, EventEmitter, Output, Input} from '@angular/core';
 
 @Component({
   selector: 'app-about',
@@ -6,10 +6,25 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent implements OnInit {
+  @Output() linkSelected = new EventEmitter();
+   @Input() simpleMode: boolean;
+
+
+
+
 
   constructor() { }
 
   ngOnInit() {
   }
+
+  onSelected(){
+    if(this.simpleMode){
+      this.simpleMode != this.simpleMode;
+    }
+    this.linkSelected.emit(this.simpleMode);
+
+  }
+
 
 }

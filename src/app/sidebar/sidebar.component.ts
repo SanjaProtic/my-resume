@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-sidebar',
@@ -6,10 +6,22 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./sidebar.component.scss']
 })
 export class SidebarComponent implements OnInit {
+   simpleMode: boolean = true;
+  // @Output() linkWasSelected = new EventEmitter<boolean>();
+  // toogleChild() {
+  //   this.simpleMode = !this.simpleMode;
+  // }
 
   constructor() { }
 
   ngOnInit() {
   }
+
+   onLinkSelected(data){
+     return data;
+
+   }
+  
+
 
 }
