@@ -7,10 +7,6 @@ import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 })
 export class SidebarComponent implements OnInit {
    simpleMode: boolean = true;
-  // @Output() linkWasSelected = new EventEmitter<boolean>();
-  // toogleChild() {
-  //   this.simpleMode = !this.simpleMode;
-  // }
 
   constructor() { }
 
