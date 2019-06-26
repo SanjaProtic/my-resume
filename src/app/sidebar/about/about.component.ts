@@ -10,9 +10,6 @@ export class AboutComponent implements OnInit {
    @Input() simpleMode: boolean;
 
 
-
-
-
   constructor() { }
 
   ngOnInit() {
