@@ -33,3 +33,12 @@
         margin: 0.5rem;
     }
 }
+.project {
+    a {
+        text-decoration: none;
+        color: $green-color;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
