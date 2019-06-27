@@ -9,7 +9,7 @@ import { ContentComponent } from './content/content.component';
 const appRoutes: Routes = [
     { path: '', component: ContentComponent, pathMatch: 'full' },
     { path: 'about', component: AboutComponent },
-    { path: 'contact', component: ContactComponent }
+    { path: 'contact', component: ContactComponent, data: {animation: 'ContactPage'} }
 
 ];
 @NgModule({

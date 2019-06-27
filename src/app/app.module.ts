@@ -13,6 +13,7 @@ import { fas, faPhoneAlt, faCity, faEnvelope, faBookOpen, faCode, faMagic} from 
 import { far,faFileCode } from '@fortawesome/free-regular-svg-icons';
 import { fab, faGithub, faSkype } from '@fortawesome/free-brands-svg-icons';
 import { AppRoutingModule } from './app-routing.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 
@@ -28,7 +29,9 @@ import { AppRoutingModule } from './app-routing.module';
   imports: [
     BrowserModule,
     FontAwesomeModule,
+    BrowserAnimationsModule,
     AppRoutingModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

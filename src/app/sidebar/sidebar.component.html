@@ -1,5 +1,5 @@
 <div class="sidebar-container">
-    <app-about [simpleMode]='simpleMode' (linkSelected)="onLinkSelected($event)"></app-about>
+    <app-about [@templateState] = 'state' [simpleMode]='simpleMode' (linkSelected)="onLinkSelected($event)"></app-about>
     <app-contact [simpleMode]='simpleMode' (linkSelected)="onLinkSelected($event)"></app-contact>
 </div>
 
