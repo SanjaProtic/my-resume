@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterOutlet, Router } from '@angular/router';
 import { trigger, style, transition, animate, query, animateChild  } from '@angular/animations';
 
 @Component({
@@ -31,9 +31,10 @@ import { trigger, style, transition, animate, query, animateChild  } from '@angu
 export class AppComponent implements OnInit{
   title = 'my-resume';
 
-  constructor(){}
+  constructor(private router: Router){}
 
   ngOnInit(){
+    this.router.navigate(['']);
 
   }
 
