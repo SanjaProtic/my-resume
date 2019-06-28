@@ -8,7 +8,7 @@ import { ContentComponent } from './content/content.component';
 
 const appRoutes: Routes = [
     { path: '', component: ContentComponent, pathMatch: 'full' },
-    { path: 'about', component: AboutComponent },
+    { path: 'about', component: AboutComponent, data: {animation: 'AboutPage'} },
     { path: 'contact', component: ContactComponent, data: {animation: 'ContactPage'} }
 
 ];

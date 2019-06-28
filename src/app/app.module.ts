@@ -38,6 +38,17 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 })
 export class AppModule { 
    constructor(){
-      library.add(fas,faPhoneAlt,far,faCity,faEnvelope,fab,faGithub,faSkype,faBookOpen,faFileCode,faCode,faMagic);
-   }
+      library.add(fas,
+                  faPhoneAlt,
+                  far,
+                  faCity,
+                  faEnvelope,
+                  fab,
+                  faGithub,
+                  faSkype,
+                  faBookOpen,
+                  faFileCode,
+                  faCode,
+                  faMagic);
+      }
 }

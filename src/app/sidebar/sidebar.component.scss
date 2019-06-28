@@ -1,7 +1,9 @@
+@import "src/app/scss/variables";
+
 .sidebar-container {
     display: flex;
     flex-direction: column;
 }
 .color-text {
-    color: #282828;
+    color: $color-text;
 }
