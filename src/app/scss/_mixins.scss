@@ -13,3 +13,8 @@
     -webkit-transform: skewY(-60deg); 
     transform: skewY(-60deg); 
 }
+@mixin rotate2{
+	-ms-transform: skewY(0); 
+    -webkit-transform: skewY(0); 
+    transform: skewY(0); 
+}

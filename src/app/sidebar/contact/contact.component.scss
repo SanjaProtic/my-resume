@@ -2,6 +2,7 @@
 
 .main-contact {
     padding: 2rem;
+    font-size: 16px;
     a {
         color: $green-color;
         text-decoration: none;
@@ -17,4 +18,36 @@
 }
 .icon {
     padding-right: 1rem;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 568px) {
+    .main-contact {
+        padding: 0;
+        h5 {
+            text-align: center;
+        }
+        div {
+            padding-left: 2rem;
+        }
+        
+        
+    }
+}
+
+@media only screen and (min-width: 569px) and (max-width: 991px) {
+    .main-contact {
+        padding: 2rem 0 0 0;
+        font-size: 0.75rem;
+        div {
+            padding-bottom: 0.5rem;
+        }
+    }
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 991px){
+    .main-contact {
+        font-size: 0.9rem;
+    }
+
 }
