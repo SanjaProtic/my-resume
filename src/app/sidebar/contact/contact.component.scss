@@ -23,11 +23,12 @@
 @media only screen and (min-width: 320px) and (max-width: 568px) {
     .main-contact {
         padding: 0;
-        h5 {
-            text-align: center;
-        }
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         div {
             padding-left: 2rem;
+            width: 300px;
         }
         
         
