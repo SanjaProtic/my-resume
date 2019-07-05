@@ -33,6 +33,7 @@ header {
         a {
             text-decoration: none;
             color: $color-text;
+            transition: color .8s;
             &:hover {
                 color: $white-color;
             }
