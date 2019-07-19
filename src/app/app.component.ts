@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { RouterOutlet, Router } from '@angular/router';
-import { trigger, style, transition, animate, query, animateChild  } from '@angular/animations';
+import { trigger, style, transition, animate } from '@angular/animations';
 
 @Component({
   selector: 'app-root',
@@ -37,11 +37,10 @@ export class AppComponent implements OnInit{
 
   ngOnInit(){
     this.router.navigate(['']);
-    
+
     if(this.screenWidth < 991) {
       this.isDisabledAnimation = true;
     }
-    console.log(this.screenWidth);
 
   }
 
