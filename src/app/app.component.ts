@@ -8,7 +8,7 @@ import { trigger, style, transition, animate, query, animateChild  } from '@angu
   styleUrls: ['./app.component.scss'],
   animations: [
     trigger('routeAnimations', [
-      transition('* => ContactPage',[
+      transition('* => ContactPage',[    
       style({
           opacity: 0.3,
           transform: 'translate(-100%) scale(1)'
@@ -30,11 +30,18 @@ import { trigger, style, transition, animate, query, animateChild  } from '@angu
 })
 export class AppComponent implements OnInit{
   title = 'my-resume';
+  screenWidth = window.innerWidth;
+  isDisabledAnimation = false;
 
   constructor(private router: Router){}
 
   ngOnInit(){
     this.router.navigate(['']);
+    
+    if(this.screenWidth < 991) {
+      this.isDisabledAnimation = true;
+    }
+    console.log(this.screenWidth);
 
   }
 

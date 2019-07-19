@@ -4,7 +4,7 @@
   
   <div class="main-content">
     <div><app-sidebar></app-sidebar></div>
-    <div [@routeAnimations]="prepareRoute(outlet)">
+    <div [@routeAnimations]="prepareRoute(outlet)" [@.disabled]="isDisabledAnimation">
       <router-outlet #outlet="outlet"></router-outlet>
     </div>
   </div>
