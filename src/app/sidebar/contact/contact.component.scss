@@ -23,6 +23,13 @@
 .icon {
     padding-right: 1rem;
 }
+.socialLinks {
+    border-top: 1px solid $green-color;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+
 
 @media only screen and (min-width: 320px) and (max-width: 568px) {
     .main-contact {
